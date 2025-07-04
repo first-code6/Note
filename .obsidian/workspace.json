@@ -13,26 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/C++/练习/C++基本使用.md",
+                "file": "笔记/C++/C++库/fstream文件流.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C++基本使用"
-            }
-          },
-          {
-            "id": "bd993203672e7f53",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "笔记/C++/C++库/cstring(字符串处理).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "cstring(字符串处理)"
+              "title": "fstream文件流"
             }
           }
         ]
@@ -108,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/C++/练习/C++基本使用.md",
+                "file": "笔记/C++/C++库/fstream文件流.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "C++基本使用 的反向链接列表"
+              "title": "fstream文件流 的反向链接列表"
             }
           },
           {
@@ -127,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/C++/练习/C++基本使用.md",
+                "file": "笔记/C++/C++库/fstream文件流.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "C++基本使用 的出链列表"
+              "title": "fstream文件流 的出链列表"
             }
           },
           {
@@ -156,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/C++/练习/C++基本使用.md",
+                "file": "笔记/C++/C++库/fstream文件流.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "C++基本使用 的大纲"
+              "title": "fstream文件流 的大纲"
             }
           }
         ],
@@ -184,6 +170,16 @@
   },
   "active": "ee5f60a365cba5df",
   "lastOpenFiles": [
+    "笔记/C++/C++笔记/C++进阶.md",
+    "笔记/C++/C++库/cstring(字符串处理).md",
+    "笔记/C++/C++库/fstream文件流.md",
+    "笔记/C++/C++笔记/C++基本使用.md",
+    "笔记/C++/C++库/verctor(可变化大小的数组).md",
+    "笔记/C++/C++笔记/C++的一些基本规则.md",
+    "笔记/C++/C++库/ctime（日期时间）.md",
+    "笔记/C++/练习/C++的一些练习.md",
+    "工具/跨平台.md",
+    "笔记/C++/C++笔记",
     "Note/笔记/C++/练习/C++的一些基本规则.md",
     "Note/笔记/C++/C++库/verctor(可变化大小的数组).md",
     "Note/笔记/C++/练习/C++基本使用.md",
@@ -197,17 +193,10 @@
     "Note/工具",
     "Note/README.md",
     "Note",
-    "笔记/C++/C++库/cstring(字符串处理).md",
-    "笔记/C++/练习/C++基本使用.md",
-    "笔记/C++/练习/C++的一些基本规则.md",
     "Pasted image 20250703105056.png",
-    "工具/跨平台.md",
-    "笔记/C++/C++库/verctor(可变化大小的数组).md",
-    "笔记/C++/C++库/ctime（日期时间）.md",
     "笔记/C++/C++库/未命名",
     "笔记/C++/C++库",
     "工具/跨平台",
-    "工具",
     "未命名.canvas",
     "未命名.md",
     "欢迎.md",
