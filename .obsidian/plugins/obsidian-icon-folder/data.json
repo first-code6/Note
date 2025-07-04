@@ -1,0 +1,48 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiALargeSmall",
+      "LiBox",
+      "LiTimer",
+      "LiArchiveRestore",
+      "🌉"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
+  },
+  "笔记": "📓",
+  "笔记/C++": "LiCode",
+  "笔记/C++/练习": "🧪",
+  "笔记/C++/练习/C++基本使用.md": "LiCode",
+  "笔记/C++/练习/C++的一些基本规则.md": "LiCodepen",
+  "工具": "🧰",
+  "工具/跨平台.md": "🌉",
+  "笔记/C++/C++库": "LiArchiveRestore",
+  "笔记/C++/C++库/ctime（日期时间）.md": "LiTimer",
+  "笔记/C++/C++库/verctor(可变化大小的数组).md": "LiBox",
+  "笔记/C++/C++库/cstring(字符串处理).md": "LiALargeSmall"
+}
