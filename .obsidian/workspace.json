@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/C++/C++笔记/C++进阶.md",
+                "file": "工具/跨平台.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C++进阶"
+              "title": "跨平台"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/C++/C++笔记/C++进阶.md",
+                "file": "工具/跨平台.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "C++进阶 的大纲"
+              "title": "跨平台 的大纲"
             }
           }
         ],
@@ -168,18 +168,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ee5f60a365cba5df",
+  "active": "5fe1ca88b212a511",
   "lastOpenFiles": [
-    "笔记/C++/练习/C++的一些基本规则.md",
-    "笔记/C++/练习/C++的一些练习.md",
+    "笔记/C++/C++库/verctor(可变化大小的数组).md",
+    "笔记/C++/C++库/fstream文件流.md",
+    "笔记/C++/C++库/cstring(字符串处理).md",
+    "笔记/C++/C++库/ctime（日期时间）.md",
     "笔记/C++/C++笔记/C++进阶.md",
     "笔记/C++/C++笔记/C++基本使用.md",
     "笔记/C++/C++笔记/C++的一些基本规则.md",
+    "笔记/C++/练习/C++的一些练习.md",
+    "README.md",
+    "笔记/C++/练习/C++的一些基本规则.md",
     "笔记/C++/练习/C++基本使用.md",
-    "笔记/C++/C++库/fstream文件流.md",
-    "笔记/C++/C++库/cstring(字符串处理).md",
-    "笔记/C++/C++库/verctor(可变化大小的数组).md",
-    "笔记/C++/C++库/ctime（日期时间）.md",
     "工具/跨平台.md",
     "笔记/C++/C++笔记",
     "Note/笔记/C++/练习/C++的一些基本规则.md",
