@@ -6,3 +6,7 @@
 
 ![[git-baseAction.jpg]]
 
+
+### GIT的一些操作
+
+#### 解决冲突

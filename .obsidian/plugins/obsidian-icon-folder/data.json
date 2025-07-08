@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiGitFork",
-      "LiFile",
-      "🏢",
-      "LiWorkflow",
-      "LiBriefcaseBusiness"
+      "IcHtml5",
+      "IcJihe1",
+      "IcWEBqianduan",
+      "IcJihe",
+      "LiFileBox"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -57,5 +57,10 @@
   "工作进程/工作需求.md": "LiBriefcaseBusiness",
   "工作进程": "🏢",
   "README.md": "LiFile",
-  "工具/Git使用教程.md": "LiGitFork"
+  "工具/Git使用教程.md": "LiGitFork",
+  "独立游戏开发思路": "🎮",
+  "独立游戏开发思路/硬核生存类游戏.md": "LiGamepad",
+  "笔记/前端/前端组件": "LiFileBox",
+  "笔记/前端/前端组件/全家桶.md": "IcJihe1",
+  "笔记/前端": "IcHtml5"
 }
