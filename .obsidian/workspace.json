@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作进程/工作需求.md",
+                "file": "工具/Git使用教程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "工作需求"
+              "title": "Git使用教程"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作进程/工作需求.md",
+                "file": "工具/Git使用教程.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "工作需求 的大纲"
+              "title": "Git使用教程 的大纲"
             }
           }
         ],
@@ -170,8 +170,8 @@
   },
   "active": "2f978f8e051b3d28",
   "lastOpenFiles": [
-    "工作进程/工作安排.md",
     "工作进程/工作需求.md",
+    "工作进程/工作安排.md",
     "README.md",
     "工具/img/Git使用教程/git-process.png",
     "工具/img/Git使用教程/git-baseAction.jpg",

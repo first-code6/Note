@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiGitFork",
       "LiFile",
       "🏢",
       "LiWorkflow",
-      "LiBriefcaseBusiness",
-      "LiFiles"
+      "LiBriefcaseBusiness"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -56,5 +56,6 @@
   "工作进程/工作安排.md": "LiWorkflow",
   "工作进程/工作需求.md": "LiBriefcaseBusiness",
   "工作进程": "🏢",
-  "README.md": "LiFile"
+  "README.md": "LiFile",
+  "工具/Git使用教程.md": "LiGitFork"
 }
