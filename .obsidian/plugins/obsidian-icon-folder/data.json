@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiCode",
+      "LiAppWindow",
       "IcHtml5",
       "IcJihe1",
-      "IcWEBqianduan",
-      "IcJihe",
-      "LiFileBox"
+      "IcWEBqianduan"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -62,5 +62,7 @@
   "独立游戏开发思路/硬核生存类游戏.md": "LiGamepad",
   "笔记/前端/前端组件": "LiFileBox",
   "笔记/前端/前端组件/全家桶.md": "IcJihe1",
-  "笔记/前端": "IcHtml5"
+  "笔记/前端": "IcHtml5",
+  "笔记/Windows": "LiAppWindow",
+  "笔记/Windows/PowerShell.md": "LiCode"
 }

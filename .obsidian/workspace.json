@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/前端/前端组件/全家桶.md",
+                "file": "笔记/Windows/PowerShell.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "全家桶"
+              "title": "PowerShell"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/前端/前端组件/全家桶.md",
+                "file": "笔记/Windows/PowerShell.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "全家桶 的大纲"
+              "title": "PowerShell 的大纲"
             }
           }
         ],
@@ -170,12 +170,15 @@
   },
   "active": "ca4b8e094ca9b56b",
   "lastOpenFiles": [
-    "工具/跨平台.md",
+    "README.md",
+    "笔记/Windows/PowerShell.md",
+    "未命名.md",
     "笔记/前端/前端组件/全家桶.md",
+    "笔记/Windows",
+    "工具/跨平台.md",
     "工作进程/工作需求.md",
     "独立游戏开发思路/硬核生存类游戏.md",
     "独立游戏开发思路",
-    "README.md",
     "笔记/前端/前端组件",
     "笔记/前端",
     "笔记/未命名.md",
@@ -205,10 +208,7 @@
     "Note/笔记",
     "Note/工具/跨平台.md",
     "Note/工具",
-    "Note/README.md",
-    "Note",
     "Pasted image 20250703105056.png",
-    "未命名.canvas",
-    "未命名.md"
+    "未命名.canvas"
   ]
 }
