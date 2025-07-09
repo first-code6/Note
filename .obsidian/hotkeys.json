@@ -15,5 +15,13 @@
       ],
       "key": "D"
     }
+  ],
+  "open-with-default-app:show": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "R"
+    }
   ]
 }
