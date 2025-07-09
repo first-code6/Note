@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/Windows/PowerShell.md",
+                "file": "工作进程/工作需求.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PowerShell"
+              "title": "工作需求"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/Windows/PowerShell.md",
+                "file": "工作进程/工作需求.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "PowerShell 的大纲"
+              "title": "工作需求 的大纲"
             }
           }
         ],
@@ -171,18 +171,18 @@
   "active": "ca4b8e094ca9b56b",
   "lastOpenFiles": [
     "README.md",
+    "工作进程/工作需求.md",
+    "工作进程/工作安排.md",
     "笔记/Windows/PowerShell.md",
     "未命名.md",
     "笔记/前端/前端组件/全家桶.md",
     "笔记/Windows",
     "工具/跨平台.md",
-    "工作进程/工作需求.md",
     "独立游戏开发思路/硬核生存类游戏.md",
     "独立游戏开发思路",
     "笔记/前端/前端组件",
     "笔记/前端",
     "笔记/未命名.md",
-    "工作进程/工作安排.md",
     "工具/Git使用教程.md",
     "工具/img/Git使用教程/git-process.png",
     "工具/img/Git使用教程/git-baseAction.jpg",
