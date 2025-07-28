@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0e7e04a6ccc2dc1d",
+        "id": "211ff7273a84abaa",
         "type": "tabs",
         "children": [
           {
-            "id": "ca4b8e094ca9b56b",
+            "id": "6c75a0ff7a20b5d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作进程/工作需求.md",
+                "file": "笔记/C++/练习/C++的一些练习.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "工作需求"
+              "title": "C++的一些练习"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作进程/工作需求.md",
+                "file": "笔记/C++/练习/C++的一些练习.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "工作需求 的大纲"
+              "title": "C++的一些练习 的大纲"
             }
           }
         ],
@@ -168,10 +168,21 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ca4b8e094ca9b56b",
+  "active": "6c75a0ff7a20b5d5",
   "lastOpenFiles": [
-    "笔记/前端/前端组件/全家桶.md",
+    "笔记/C++/C++笔记/C++的一些基本规则.md",
+    "笔记/C++/C++笔记/C++基本使用.md",
+    "笔记/C++/C++笔记/C++进阶.md",
+    "笔记/C++/C++库/STL(C++标准库).md",
     "工作进程/工作需求.md",
+    "笔记/C++/未命名",
+    "笔记/C++/C++库/fstream文件流.md",
+    "笔记/C++/C++库/verctor(可变化大小的数组).md",
+    "笔记/C++/C++库/ctime（日期时间）.md",
+    "笔记/C++/C++库/cstring(字符串处理).md",
+    "笔记/前端/原生/HTML.md",
+    "笔记/前端/前端组件/全家桶.md",
+    "笔记/前端/原生",
     "README.md",
     "工作进程/工作安排.md",
     "笔记/Windows/PowerShell.md",
@@ -186,13 +197,6 @@
     "工具/Git使用教程.md",
     "工具/img/Git使用教程/git-process.png",
     "工具/img/Git使用教程/git-baseAction.jpg",
-    "笔记/C++/C++库/verctor(可变化大小的数组).md",
-    "笔记/C++/C++库/fstream文件流.md",
-    "笔记/C++/C++库/cstring(字符串处理).md",
-    "笔记/C++/C++库/ctime（日期时间）.md",
-    "笔记/C++/C++笔记/C++进阶.md",
-    "笔记/C++/C++笔记/C++基本使用.md",
-    "笔记/C++/C++笔记/C++的一些基本规则.md",
     "笔记/C++/练习/C++的一些练习.md",
     "笔记/C++/练习/C++的一些基本规则.md",
     "笔记/C++/练习/C++基本使用.md",
@@ -201,13 +205,9 @@
     "Note/笔记/C++/C++库/verctor(可变化大小的数组).md",
     "Note/笔记/C++/练习/C++基本使用.md",
     "Note/笔记/C++/C++库/ctime（日期时间）.md",
-    "Note/笔记/C++/C++库/cstring(字符串处理).md",
     "Note/笔记/C++/练习",
     "Note/笔记/C++/C++库",
     "Note/笔记/C++",
-    "Note/笔记",
-    "Note/工具/跨平台.md",
-    "Note/工具",
     "Pasted image 20250703105056.png",
     "未命名.canvas"
   ]
