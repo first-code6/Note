@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/C++/练习/C++的一些练习.md",
+                "file": "工具/Git使用教程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C++的一些练习"
+              "title": "Git使用教程"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "笔记/C++/练习/C++的一些练习.md",
+                "file": "工具/Git使用教程.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "C++的一些练习 的大纲"
+              "title": "Git使用教程 的大纲"
             }
           }
         ],
@@ -170,25 +170,28 @@
   },
   "active": "6c75a0ff7a20b5d5",
   "lastOpenFiles": [
+    "工具/跨平台.md",
+    "笔记/组件/Git.md",
+    "工作进程/工作需求.md",
+    "笔记/组件",
+    "笔记/前端/前端组件/全家桶.md",
+    "笔记/C++/练习/C++的一些练习.md",
     "笔记/C++/C++笔记/C++的一些基本规则.md",
     "笔记/C++/C++笔记/C++基本使用.md",
     "笔记/C++/C++笔记/C++进阶.md",
     "笔记/C++/C++库/STL(C++标准库).md",
-    "工作进程/工作需求.md",
     "笔记/C++/未命名",
     "笔记/C++/C++库/fstream文件流.md",
     "笔记/C++/C++库/verctor(可变化大小的数组).md",
     "笔记/C++/C++库/ctime（日期时间）.md",
     "笔记/C++/C++库/cstring(字符串处理).md",
     "笔记/前端/原生/HTML.md",
-    "笔记/前端/前端组件/全家桶.md",
     "笔记/前端/原生",
     "README.md",
     "工作进程/工作安排.md",
     "笔记/Windows/PowerShell.md",
     "未命名.md",
     "笔记/Windows",
-    "工具/跨平台.md",
     "独立游戏开发思路/硬核生存类游戏.md",
     "独立游戏开发思路",
     "笔记/前端/前端组件",
@@ -197,17 +200,14 @@
     "工具/Git使用教程.md",
     "工具/img/Git使用教程/git-process.png",
     "工具/img/Git使用教程/git-baseAction.jpg",
-    "笔记/C++/练习/C++的一些练习.md",
     "笔记/C++/练习/C++的一些基本规则.md",
     "笔记/C++/练习/C++基本使用.md",
     "笔记/C++/C++笔记",
     "Note/笔记/C++/练习/C++的一些基本规则.md",
     "Note/笔记/C++/C++库/verctor(可变化大小的数组).md",
     "Note/笔记/C++/练习/C++基本使用.md",
-    "Note/笔记/C++/C++库/ctime（日期时间）.md",
     "Note/笔记/C++/练习",
     "Note/笔记/C++/C++库",
-    "Note/笔记/C++",
     "Pasted image 20250703105056.png",
     "未命名.canvas"
   ]
