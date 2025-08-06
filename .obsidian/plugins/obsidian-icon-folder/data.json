@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiGitGraph",
-      "FasCube",
-      "IcHtml",
-      "LiCode",
-      "LiAppWindow"
+      "IcCss",
+      "LiDatabase",
+      "LiServer",
+      "LiDatabaseBackup",
+      "LiGitGraph"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -66,5 +66,11 @@
   "笔记/Windows/PowerShell.md": "LiCode",
   "笔记/前端/原生": "IcHtml",
   "笔记/前端/原生/HTML.md": "IcHtml",
-  "笔记/C++/C++库/STL(C++标准库).md": "FasCube"
+  "笔记/C++/C++库/STL(C++标准库).md": "FasCube",
+  "笔记/后端": "LiDatabaseBackup",
+  "笔记/后端/express": "LiServer",
+  "笔记/后端/express/express.md": "LiServer",
+  "笔记/后端/SQLServer": "LiDatabase",
+  "笔记/后端/SQLServer/SQLServer.md": "LiDatabase",
+  "笔记/前端/原生/CSS.md": "IcCss"
 }
