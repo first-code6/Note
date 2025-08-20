@@ -823,4 +823,73 @@ COMMIT TRANSACTION
 ```sql
 RAISERROR(N'你好，这是一个错误', 11, 1)
 ```
+# 游标
 
+[SqlServer游标的创建与使用 - 熊泽-学习中的苦与乐 - 博客园](https://www.cnblogs.com/xiongze520/p/14633171.html#_label1)
+
+## 游标的定义
+
+游标（Cursor）是处理数据的一种方法，为了查看或者处理结果集中的数据，游标提供了在结果集中一次一行或者多行前进或向后浏览数据的能力
+
+它使用户可逐行访问由SQL Server返回的结果集。使用游标(cursor)的一个主要的原因就是把集合操作转换成单个记录处理方式。
+
+用SQL语言从数据库中检索数据后，结果放在内存的一块区域中，且结果往往是一个含有多个记录的集合。
+
+游标机制允许用户在SQL server内逐行地访问这些记录，按照用户自己的意愿来显示和处理这些记录。
+
+我们可以把游标当作一个指针，它可以指定结果中的任何位置，然后允许用户对指定位置的数据进行处理。
+
+## 游标基础示例
+```sql
+--声明（创建）游标对象（标准游标）
+declare 
+MyCursor cursor 
+for SELECT  s.Name,sc.ClassName FROM a_Students s
+INNER JOIN a_StudentClass sc ON s.ClassId=sc.ClassId;
+
+--声明两个变量接收从游标中取出的值
+declare @Name varchar(50),@ClassName varchar(50);    
+begin
+    --打开游标
+    open MyCursor;
+
+    --移动游标取值
+    fetch next from MyCursor into @Name,@ClassName;
+    --这里对游标的状态进行判断，如果为0，证明游标中有值
+    while @@FETCH_STATUS = 0
+        BEGIN
+            print(@Name);
+            print(@ClassName);
+            --让游标继续往后移动
+            fetch next from MyCursor into @Name,@ClassName
+        end
+
+--关闭游标
+CLOSE MyCursor
+
+--释放游标
+DEALLOCATE MyCursor
+
+end
+
+```
+
+## 游标注意事项
+
+游标用于按顺序遍历结果集。
+
+但一般情况下，应尽量避免使用游标，可使用while或者for loop替代
+
+原因：
+
+1.  游标违背了关系模型，即按集合来考虑问题的思想；
+2. 游标逐行对纪录进行操作，会带来额外的开销，使用游标的解决方案通常比使用集合的解决方案要慢得多；
+3. 使用游标的解决方案，需要用很多代码来描述对游标的操作，因此代码更长，可读性更差，也更难以维护。
+
+如果要使用，一定记住要记住：
+
+1. 用完之后一定要关闭和释放，尽量不要在大量数据上定义游标；
+2. 尽量不要使用游标上更新数据；
+3. 尽量不要使用insensitive, static和keyset这些参数定义游标；
+4. 如果可以，尽量使用FAST_FORWARD关键字定义游标；
+5. 如果只对数据进行读取，当读取时只用到FETCH NEXT选项，则最好使用FORWARD_ONLY参数。
