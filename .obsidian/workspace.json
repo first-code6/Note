@@ -160,6 +160,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:创建新数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -171,8 +172,10 @@
   "active": "6c75a0ff7a20b5d5",
   "lastOpenFiles": [
     "笔记/后端/SQLServer/SQLServer.md",
-    "独立游戏开发思路/硬核生存类游戏.md",
+    "笔记/后端/SQLServer/img/Pasted image 20250821082453.png",
+    "笔记/后端/SQLServer/img",
     "工作进程/工作需求.md",
+    "独立游戏开发思路/硬核生存类游戏.md",
     "笔记/UE5/UE5.md",
     "笔记/前端/原生/CSS.md",
     "笔记/UE5",
@@ -204,8 +207,6 @@
     "笔记/C++/C++库/verctor(可变化大小的数组).md",
     "笔记/C++/C++库/ctime（日期时间）.md",
     "笔记/C++/C++库/cstring(字符串处理).md",
-    "笔记/前端/原生",
-    "工作进程/工作安排.md",
     "工具/img/Git使用教程/git-process.png",
     "工具/img/Git使用教程/git-baseAction.jpg",
     "Pasted image 20250703105056.png",

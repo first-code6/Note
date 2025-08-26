@@ -79,11 +79,45 @@ DROP TABLE Customers;
 
 ### 5.JOIN
 
-> 在查询两张表时，使用两个select语句会产生两个查询结果，使用join可通过一列合并两张表
+> inner join(内连接)
+
+**显示左右两表能完全匹配的数据**
 
 ```sql
-select * from boxstation as a join box type as b on a.id=b.id
+select P.ProvinceId,P.ProvinceName,C.CityName,C.ProvinceId,C.CityId
+from [dbo].[City] C inner JOIN [dbo].[Province] P ON P.ProvinceId = C.CityId where C.ProvinceId= 6
 ```
+
+> left join(左外连接)
+
+**显示左表所有数据，右表匹配不上的显示为NULL**
+
+```sql
+select P.ProvinceId,P.ProvinceName,C.CityName,C.ProvinceId,C.CityId
+from [dbo].[City] C LEFT JOIN [dbo].[Province] P ON P.ProvinceId = C.CityId where C.ProvinceId= 6
+```
+
+> right join(右外连接)
+
+**显示右表所有数据，左表匹配不上的显示为NULL**
+
+```sql
+select P.ProvinceId,P.ProvinceName,C.CityName,C.ProvinceId,C.CityId
+from [dbo].[Province] P RIGHT JOIN [dbo].[City] C ON P.ProvinceId = C.CityId where C.ProvinceId= 16
+```
+
+> full join（全外连接）
+
+**显示左右两量表所有数据，两表匹配不上的显示为NULL**
+
+```sql
+select P.ProvinceId,P.ProvinceName,C.CityName,C.ProvinceId,C.CityId
+from [dbo].[Province] P FULL OUTER JOIN [dbo].[City] C ON P.ProvinceId = C.CityId where C.ProvinceId= 6
+```
+
+> 图：
+
+![[Pasted image 20250821082453.png]]
 
 ### 6.COUNT
 
@@ -524,8 +558,6 @@ begin
 end
 ```
 
-# 八.INNER JOIN
-
 # 九.DISTINCT
 
 `SELECT DISTINCT`语句用于仅返回不同的（不同的）值
@@ -893,3 +925,56 @@ end
 3. 尽量不要使用insensitive, static和keyset这些参数定义游标；
 4. 如果可以，尽量使用FAST_FORWARD关键字定义游标；
 5. 如果只对数据进行读取，当读取时只用到FETCH NEXT选项，则最好使用FORWARD_ONLY参数。
+
+# 截取字符串
+
+## left
+
+> left (name, 2) 截取左边的2个字符
+
+```sql
+SELECT LEFT(202509, 4)
+-- 结果：2025
+```
+
+## right
+
+>right(name,2)截取右边的2个字符
+
+```sql
+SELECT RIGHT(202509,2)
+-- 结果：09
+```
+
+## SUBSTRING
+
+
+```sql
+-- SUBSTRING(name,5,3) 截取name这个字段 从第五个字符开始 只截取之后的3个字符
+SELECT SUBSTRING('成都融资事业部',5,3)
+--结果：事业部
+
+--SUBSTRING(name,3) 截取name这个字段 从第三个字符开始，之后的所有个字符
+SELECT SUBSTRING('成都融资事业部',3)
+--结果：融资事业部
+
+--SUBSTRING(name, -4) 截取name这个字段的第 4 个字符位置（倒数）开始取，直到结束
+SELECT SUBSTRING('成都融资事业部',-4)
+--结果：资事业部
+
+--SUBSTRING(name, -4，2) 截取name这个字段的第 4 个字符位置（倒数）开始取，只截取之后的2个字符
+SELECT SUBSTRING('成都融资事业部',-4,2)
+--结果：资事
+```
+
+## substring_index
+
+```sql
+--substring_index('www.baidu.com', '.', 2) 截取第二个 '.' 之前的所有字符
+SELECT substring_index('www.baidu.com', '.', 2)
+--结果：www.baidu
+
+--substring_index('www.baidu.com', '.', -2) 截取第二个 '.' （倒数）之后的所有字符
+SELECT substring_index('www.baidu.com', '.', -2)
+--结果：baidu.com
+```
